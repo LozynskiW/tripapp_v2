@@ -1,0 +1,45 @@
+###
+GET http://localhost:3000/api/comments/60ba9176806cdd36a80d4651
+
+
+###
+POST http://localhost:3000/api/comments/60ba9176806cdd36a80d4651
+Content-Type: application/json
+
+{
+    "nick": "michal",
+    "title": "Nie podobało mi się",
+    "content": "W parku były śmieci!!!",
+    "rate": 3,
+    "dateOfVisit": "2021-04-21T13:43:04.621Z"
+}
+
+###
+POST http://localhost:3000/api/comments/60ba9176806cdd36a80d4651
+Content-Type: application/json
+
+{
+    "nick": "andrzej",
+    "title": "Fajne miejsce",
+    "content": "Ciekawa ekspozycja tylko trzeba dużo chodzić",
+    "rate": 4,
+    "dateOfVisit": "2021-04-14T13:43:04.621Z"
+}
+
+
+###
+POST http://localhost:3000/api/comments/60ba9176806cdd36a80d4651
+Content-Type: application/json
+
+{
+    "title": "Nie podobało mi się",
+    "content": "W parku były śmieci!!!",
+    "rate": 3,
+    "dateOfVisit": "2021-04-21T13:43:04.621Z"
+}
+
+###
+DELETE http://localhost:3000/api/comments/60bfdf2e0875f27334c294e1
+
+###
+DELETE http://localhost:3000/api/comments/60ba9176806cdd36a80d4651

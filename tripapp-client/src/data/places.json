@@ -1,0 +1,38 @@
+[
+  {
+    "id": "001",
+    "name": "Zamek Królewski w Warszawie",
+    "url": "https://modanamazowsze.pl/wp-content/uploads/2019/11/zamek_krolewski_warszawa2-1170x680.jpg",
+    "descr": "Barokowo-klasycystyczny zamek królewski znajdujący się w Warszawie przy placu Zamkowym 4.",
+    "lat": 52.247742,
+    "lon": 21.015341,
+    "costToVisit": 30,
+    "comments": [{
+      "id": "101",
+      "title": "Wspaniałe miejsce",
+      "content": "Zamek jest piękny",
+      "nick": "Jan",
+      "rate": 5
+    }],
+    "weatherReport": {
+      "temperature": 23,
+      "description": "Słonecznie",
+      "precipation": false
+    }
+  },
+  {
+    "id": "002",
+    "name": "Łazienki Królewskie",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Pa%C5%82ac_na_wyspie%2C_%C5%81azienki_Kr%C3%B3lewskie.jpg/1200px-Pa%C5%82ac_na_wyspie%2C_%C5%81azienki_Kr%C3%B3lewskie.jpg",
+    "descr": "Zgromadzone w pałacu nad jeziorem kolekcje Stanisława Augusta Poniatowskiego: obrazy, rysunki, rzeźby, monety.",
+    "lat": 52.215324,
+    "lon": 21.034988,
+    "costToVisit": 0,
+    "comments": [],
+    "weatherReport": {
+      "temperature": 14,
+      "description": "Pochmurno",
+      "precipation": true
+    }
+  }
+]
